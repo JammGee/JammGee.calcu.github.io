@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(252, 252, 252);
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 400px;
+    margin:  10vh auto 0 auto;
+    border: 10px solid rgb(221, 164, 174);
+    border-radius: 10px;
+    background-color: white;
+}
+#calcu {
+    text-align: right;
+    height: 80px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 27px;
+    color:  rgb(219, 99, 139);
+}
+.buttons {
+    display: grid;
+    border-bottom: 1px solid pink;
+    border-left:  1px solid rgb(243, 181, 191);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: pink;
+}
+.buttons > div {
+    border-top: 1px solid white;
+    border-right: 1px solid white
+}
+.button {
+    border:  0.5px solid white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-size: 17px
+    
+    
+}
+#equal {
+    background-color: palevioletred;
+    color: white;
+
+}
+#equal:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.button:hover {
+    background-color: palevioletred;
+    color: white;
+    transition: 0.10s ease-in;
+}
